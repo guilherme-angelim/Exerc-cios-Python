@@ -1,0 +1,10 @@
+cod_vendedor = int(input("Digite o seu código: "))
+cod_peca=int(input("Digite o código da peça: "))
+preco_uni = float(input("Digite o valor unitário da peça: "))
+qtd_vendida = int(input("DIgite a quantidade de peças venidadas: "))
+total_venda = preco_uni * qtd_vendida
+print ("O seu código é: ",cod_vendedor)
+print ("O código da(s) peça(s) vendida(s) é: ",cod_peca)
+print ("O preço unitário do produto é: R$",preco_uni)
+print ("O total da venda é de: R$",total_venda)
+print ("O total da comissão é: R$",total_venda*0.05)
